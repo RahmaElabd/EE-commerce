@@ -1,0 +1,95 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.icons{
+ cursor: pointer;
+}
+.nav-link:hover {
+color: deeppink !important;
+}
+.linksNav:hover{
+color: deeppink !important;
+}
+.card {
+  width: 200px;
+  background-color: #eee;
+  height: 350px;
+  align-content: center;
+  justify-content: center;
+  outline: none;
+  border: none;
+}
+svg.slick-arrow.slick-prev,
+svg.slick-arrow.slick-next {
+  color: deeppink;
+}
+
+.card-products {
+  position: relative;
+  cursor: pointer;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  transition: 0.5s;
+
+  background-color: #fff;
+}
+.card-products:hover {
+  transform: scale(0.95);
+  box-shadow: 2px 2px #f5f3f3;
+}
+.card-products .product-text {
+  padding: 10px;
+}
+.card-products .btn {
+  transition: transform 1s , opacity 1s;
+  transform: translateY(50%);
+  opacity: 0;
+}
+.card-products:hover .btn {
+  opacity: 1;
+  transform: translateY(0%);
+  background-color: deeppink;
+  color: white;
+}
+.icon-star {
+  color: rgb(255, 196, 0);
+  font-size: 20px;
+}
+
+.btn {
+background-color: deeppink;
+color: white !important;
+padding-right: 25px;
+border: 0px;
+ } 
+ .btn:hover{
+    opacity: 0.5;
+    background-color: deeppink;
+    color: white !important;
+
+ }
+
+.Notfound .img {
+     image-rendering: pixelated;
+  
+}
+
+.contactInfo{ background-color: rgba(0, 0, 0, 0.025);}
+a{
+    text-decoration: none;
+}
+.icons:hover{
+color:deeppink;
+}
+.brandBox:hover{
+  transform: scale(0.95);
+  box-shadow: 2px 2px #f5f3f3;
+}
+.linkInfo:hover{
+  color:deeppink !important;
+}
